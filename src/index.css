@@ -35,7 +35,7 @@ body {
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  color: var(--accent);
+  color: white;
 }
 @media only screen and (max-width: 900px) {
   .wrapper > a {
