@@ -1,0 +1,88 @@
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Images {
+    --cg: 1.4rem;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 2rem;
+    column-count: 6;
+    column-gap: var(--cg);
+  }
+  @media only screen and (max-width: 3800px) {
+    .Images {
+      column-count: 6;
+    }
+  }
+  @media only screen and (max-width: 2560px) {
+    .Images {
+      column-count: 5;
+    }
+  }
+  @media only screen and (max-width: 1920px) {
+    .Images {
+      column-count: 4;
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    .Images {
+      column-count: 3;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .Images {
+      column-count: 2;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .Images {
+      column-count: 1;
+    }
+  }
+  .card {
+    position: relative;
+    width: 100%;
+    margin: calc(var(--cg) / 2) 0;
+    display: inline-block;
+    transition: var(--time) ease-in-out;
+  }
+  .card img {
+    width: 100%;
+    border-radius: 1rem;
+    transition: var(--time) ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card:hover img {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
+  }
+  .card .options {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 1.4rem;
+    color: var(--accent);
+    background-color: rgba(255, 255, 255, 0.16);
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--time) ease-in-out;
+  }
+  .card:hover .options {
+    visibility: visible;
+    opacity: 1;
+  }
+  .card .download {
+    color: var(--text);
+  }
+  .card .download:hover {
+    color: var(--accent);
+  }
+  
