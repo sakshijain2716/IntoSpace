@@ -4,9 +4,9 @@ import '../styles/body.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faSearch } from '@fortawesome/free-solid-svg-icons';
 
-import Loader from '../components/Loader';
-import NotFound from '../components/NotFound';
-import Search from '../components/Searchbox';
+import Loader from './Loader';
+import NotFound from './NotFound';
+import Search from './Searchbox';
 
 const Body = () => {
     const [images, setImages] = useState([]);
