@@ -9,6 +9,9 @@ const App = () => {
                     🚀
                 </span>
                 IntoSpace
+                <span role='img' aria-label='rocket'>
+                    🚀
+                </span>
             </a>
             <Body />
         </div>
