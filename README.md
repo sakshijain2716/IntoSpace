@@ -9,7 +9,16 @@
 [Visit the App here](https://intospace.herokuapp.com/)
 
 
-API : *https://images-api.nasa.gov/search?q=${searched_query}&media_type=image*
+~ API : _https://images-api.nasa.gov/search?q=${searched_query}&media_type=image*
+
+
 
 
 ![homepage](ss.JPG)
+
+
+
+😄
+```diff
+@@ Feel free  to contact us for PRs and Improvements. @@ 
+
