@@ -1,4 +1,4 @@
-import '../styles/Search.scss';
+import '../Search.css';
 
 const Search = (props) => {
     return (

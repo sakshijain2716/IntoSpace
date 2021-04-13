@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import '../styles/body.css';
+import '../Body.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faSearch } from '@fortawesome/free-solid-svg-icons';
@@ -43,7 +43,7 @@ const Body = () => {
                 <input
                     type='text'
                     ref={inputRef}
-                    placeholder='explore universe...'
+                    placeholder='Search in Space'
                     onKeyPress={(e) => {
                         if (e.key === 'Enter') searchHandler();
                     }}

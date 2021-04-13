@@ -8,6 +8,7 @@ const App = () => {
                 <span role='img' aria-label='rocket'>
                     🚀
                 </span>
+                IntoSpace
             </a>
             <Body />
         </div>
